@@ -1,0 +1,83 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    background-color: black;
+
+}
+
+#container {
+
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius:25px;
+    padding-bottom: 40px;
+
+}
+
+#desc{
+
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#playerName{
+
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #b4b1b4;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 21px;
+    color: black;
+
+}
+
+#start{
+
+    text-decoration: none;
+    font-size: 24px;
+    background-color:#cf8217;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-family: Arial;
+
+
+}
+
+#start:hover{
+
+    color: white;
+    transition: .2s ease-in;
+
+}
+
+#return{
+
+    text-decoration: none;
+    font-size: 24px;
+    background-color:green;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-family: Arial;    
+
+}
+
+#return:hover{
+
+    color: white;
+    transition: .2s ease-in;
+
+}
