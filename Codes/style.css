@@ -1,0 +1,73 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    background-image: url(../Images/galaxy.jpg);
+
+}
+
+#container {
+
+    text-align: center;
+    border: 2px solid black;
+    padding: 0px 20px;
+    background-color: white;
+    border-radius:25px;
+    padding-bottom: 40px;
+
+}
+
+#text{
+
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+
+}
+
+
+.choice{
+
+    background-color: #cf8217;
+    font-size: 24px;
+    padding: 10px;
+    margin-left:20px;
+    margin-right: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.choice:hover{
+
+    color: white;
+    transition: .2s ease-in;
+
+}
+
+.back{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#code{
+    width: 250px;
+    height: 50px;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 24px;
+}
