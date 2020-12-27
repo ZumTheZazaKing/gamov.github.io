@@ -1,0 +1,227 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/galaxy.jpg);
+
+}
+
+#container{
+
+    border: 5px solid black;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+
+}
+
+img{
+
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+#desc{
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(133, 130, 130);
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+#tip{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(133, 130, 130);
+    text-align: center;
+    line-height: 1.5;
+}
+
+a#play{
+
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+    background-color: green;
+    width: 200px;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+
+a#play:hover{
+
+    color: white;
+    transition: .2s ease-in;
+
+}
+
+#whatsNew{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr{
+    height: 10px;
+    background-color: black;
+    outline:none;
+    border: none;
+}
+
+#newContent{
+
+    background-color: grey;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    font-size: 24px;
+    line-height: 1.5;
+    width: 800px;
+}
+
+
+#github{
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    top: 200px;
+    left: -108px;
+    background-image: url(Images/github\ logo.png);
+    background-repeat: no-repeat;
+    background-position: 115px;
+    background-size: 25%;
+    border-radius: 0 25px 25px 0;
+    padding-top: 25px;
+    padding-left: 20px;
+    transition: .2s ease-in;
+}
+
+#instagram{
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    top: 110px;
+    left: -108px;
+    background-image: url(Images/instagram\ logo.png);
+    background-repeat: no-repeat;
+    background-position: 115px;
+    background-size: 25%;
+    border-radius: 0 25px 25px 0;
+    padding-top: 30px;
+    padding-left: 20px;
+    transition: .2s ease-in;
+}
+
+#feedback{
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    top: 110px;
+    right: -180px;
+    background-image: url(Images/send\ feedback\ logo.jpg);
+    background-repeat: no-repeat;
+    background-position: 25px;
+    background-size: 4%;
+    border-radius: 25px 0px 0px 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+    transition: .2s ease-in;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#endings{
+    border: 2px solid black;
+    width: 180px;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    top: 400px;
+    left: -150px;
+    background-image: url(Images/Gamov\ logo.jpg);
+    background-repeat: no-repeat;
+    background-position: 160px;
+    background-size: 20%;
+    border-radius: 0px 25px 25px 0px;
+    padding-top: 30px;
+    padding-left: 20px;
+    transition: .2s ease-in;
+    text-align: left;
+    padding-right: 20px;
+}
+
+#codes{
+    border: 2px solid black;
+    width: 120px;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    top: 200px;
+    right: -100px;
+    background-image: url(Images/codes\ symbol.png);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    background-size: 20%;
+    border-radius: 25px 0px 0px 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+    transition: .2s ease-in;
+    text-align: right;
+    padding-right: 20px;
+}
+
+a.link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+a.link.insta{
+    font-size: 18px;
+    text-align: left;
+}
+
+#github:hover{
+    left: 0;
+}
+
+#instagram:hover{
+    left: 0;
+}
+
+#feedback:hover{
+    right: 0;
+}
+
+#endings:hover{
+    left: 0;
+}
+
+#codes:hover{
+    right: 0;
+}
+
+
