@@ -1,0 +1,78 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    background-image: url(../../../../../../../../../../../Images/house.jpg);
+
+}
+
+#container {
+
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius:25px;
+    padding-bottom: 40px;
+    padding-top: 0;
+    width: 500px;
+    height: 500px;
+
+}
+
+#story{
+
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+
+}
+
+#count{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.choice{
+
+    background-color: #cf8217;
+    font-size: 24px;
+    padding: 10px;
+    margin-left:20px;
+    margin-right: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    animation-name: a;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+
+.choice:hover{
+
+    color: white;
+    transition: .2s ease-in;
+
+}
+
+@keyframes a{
+    0%{top: 0; left: 0;}
+    10%{top: 50px; left: 50px;}
+    20%{top: 100px; left: 100px;}
+    30%{top: 200px; left: 200px;}
+    40%{top: 300px; left: 100px;}
+    50%{top: 400px; left: 0px;}
+    60%{top: 300px; left: -50;}
+    70%{top: 200px; left: -100px;}
+    80%{top: 100px; left: -200px;}
+    90%{top: 50px; left: -100px;}
+    100%{top: 0; left: 0;}
+}

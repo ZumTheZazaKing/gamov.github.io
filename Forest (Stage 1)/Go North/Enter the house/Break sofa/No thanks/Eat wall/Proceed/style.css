@@ -1,0 +1,68 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    background-image: url(../../../../../../../Images/house.jpg);
+
+}
+
+#container {
+    border: 2px solid black;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius:25px;
+    padding-bottom: 40px;
+    width: 700px;
+    padding-top: 0;
+
+}
+
+#story{
+
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+
+}
+
+#count{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-align: center;
+}
+
+.choice{
+
+    background-color: #cf8217;
+    font-size: 24px;
+    padding: 10px;
+    margin-left:20px;
+    margin-right: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    animation-name: a;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.choice:hover{
+
+    color: white;
+    transition: .2s ease-in;
+
+}
+
+@keyframes a{
+    from{left: 0;}
+    to{left: 570px;}
+}
