@@ -1,0 +1,62 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    background-image: url(../../../../../../../../../../../Images/mines\ background.jpg);
+
+}
+
+#container {
+
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius:25px;
+    padding-bottom: 40px;
+
+}
+
+#story{
+
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+
+}
+
+#question{
+
+    font-size: 24px;
+
+}
+
+.choice{
+
+    background-color: #cf8217;
+    font-size: 24px;
+    padding: 10px;
+    margin-left:20px;
+    margin-right: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.choice:hover{
+
+    color: white;
+    transition: .2s ease-in;
+
+}
+
+#tip{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
